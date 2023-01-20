@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Java-Script</title>
+    <link rel="stylesheet" href="main.css">
+    <script>
+        // console.log('hello world1');
+        // console.log('hello world2');
+        // console.log('hello world3');
+        // console.log('hello world4');
+        // console.log('hello world5');
+        // var varijabla1;
+        // var varijabla2;
+        // var varijabla3;
+        // var varijabla4;
+        // varijabla1 = prompt();
+        // varijabla2 = prompt();
+        // console.log(varijabla1, varijabla2);
+        // varijabla3 = +varijabla1 + (+varijabla2);
+        // console.log(varijabla3);
+
+        // varijabla4 = +varijabla1 + (+varijabla2) + (+varijabla3);
+        // console.log(varijabla4);
+
+        // var randomBroj = prompt();
+        //     if (randomBroj > 10) {
+        //         console.log('veci je od 10');
+        //     } else if (+randomBroj == 10) {
+        //         console.log('broj je jednak 10');
+        //     } else {
+        //         console.log('broj je manji od 10');
+        //     }
+
+        // var randomBroj= prompt();
+        // if(+randomBroj % 3==0){
+        //     console.log('broj je  djeljiv sa 3')
+        // } else if (+randomBroj % 2==0){
+        //     console.log('broj je djeljiv sa 2')
+        // }
+        
+        // function mojaFunkcija(){
+        //     console.log('hello world');
+        // }
+        // mojaFunkcija();
+
+
+        // var broj1= prompt();
+        // var broj2 = prompt();
+        // function mojaFunkcija (){
+        //     if (broj2==0){
+        //         console.log('ne moze se dijeliti sa 0')
+        //     } else {
+        //     console.log(+broj1 / (+broj2));
+        // }
+        // }
+
+        // mojaFunkcija();
+
+        
+    </script>
+</head>
+
+
+
+<body>
+    <div class="header">
+    </div>
+
+    <div class="content">
+        <button id="first-button">click me!</button>
+        <button id="second-button">click me button 2!</button>
+        <p id="paragraf"></p>
+    </div>
+
+    <div class="footer">
+    </div>
+
+  
+
+</body>
+<script>
+   var firstButton = document.getElementById('first-button');
+   var paragraf = document.getElementById('paragraf');
+    firstButton.addEventListener('click',function(){
+        paragraf.innerHTML = prompt();
+    });
+
+    var secondButton = document.getElementById('second-button')
+    secondButton.addEventListener('click', function (){
+        alert('hello button 2');
+    });
+
+   
+</script>
+
+
+</html>
